@@ -1,0 +1,78 @@
+.sonH_editor {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.sonH_editor span {
+    background: #eee;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.sonH_editor span:hover,
+.sonH_editor span:focus {
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.sh_sonH_editor a {
+    cursor: pointer;
+}
+
+.sh_toolbar_editor a {
+    background-color: #eee;
+    padding: 5px 8px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#sh_content_editor {
+    box-shadow: 0 0 2px #CCC;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 1em;
+    margin-top: 20px;
+    resize: vertical;
+    outline: none;
+    width: 80%;
+}
+
+#sh_form_content_prd {
+    height: 150px;
+    width: 100%;
+}
+
+.sh_content_file_policy .col-xs-12 {
+    width: 100%!important;
+}
+
+.sh_btn_confirm_save form {
+    width: 80%;
+    display: block
+}
+
+#sh_form_submit_prd {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .sh_btn_confirm_save form {
+        width: 100%;
+        display: block
+    }
+    #sh_content_editor {
+        width: 100%;
+    }
+    .sh_toolbar_editor a {
+        margin-bottom: 10px;
+    }
+}
